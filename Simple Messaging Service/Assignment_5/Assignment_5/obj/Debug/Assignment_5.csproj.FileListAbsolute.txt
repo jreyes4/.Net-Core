@@ -1,0 +1,7 @@
+C:\Users\jonre\source\repos\Assignment_5\Assignment_5\bin\Assignment_5.dll.config
+C:\Users\jonre\source\repos\Assignment_5\Assignment_5\bin\Assignment_5.dll
+C:\Users\jonre\source\repos\Assignment_5\Assignment_5\bin\Assignment_5.pdb
+C:\Users\jonre\source\repos\Assignment_5\Assignment_5\obj\Debug\Assignment_5.csproj.CoreCompileInputs.cache
+C:\Users\jonre\source\repos\Assignment_5\Assignment_5\obj\Debug\Assignment_5.dll
+C:\Users\jonre\source\repos\Assignment_5\Assignment_5\obj\Debug\Assignment_5.pdb
+C:\Users\jonre\source\repos\Assignment_5\Assignment_5\obj\Debug\Assignment_5.csprojAssemblyReference.cache

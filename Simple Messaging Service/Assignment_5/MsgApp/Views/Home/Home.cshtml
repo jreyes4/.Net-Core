@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+}
+@Html.Partial("Nav")
+
+<h2>Home</h2>
+
+<div>
+    <p>Please select from the following.</p>
+</div>
+<div>
+    <input type="button" value="Send Message" onclick="location.href='@Url.Action("SendMsg", "Home")'" />
+    <input type="button" value="View Messages" onclick="location.href='@Url.Action("ReceiveMsg", "Home")'" />
+
+</div>

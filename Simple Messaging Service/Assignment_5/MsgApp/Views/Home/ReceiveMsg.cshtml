@@ -1,0 +1,53 @@
+﻿@model Msgs
+@{
+    ViewData["Title"] = "ReceiveMsg";
+}
+@Html.Partial("Nav")
+<h2>Receive Messages</h2>
+
+@using (Html.BeginForm("ReceiveMsg", "Home", FormMethod.Post))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h4><strong>Retrieve Messages sent to:</strong></h4>
+            </div>
+            <div class="col-sm-2 pad-10">
+                @Html.TextBoxFor(m => Model.userID)
+            </div>
+            <div class="col-sm-1 pad-10">
+                @Html.CheckBoxFor(m => Model.purge)
+                <label>Purge </label>
+
+            </div>
+            <input class="pad-10" type="submit" value="Retrieve" />
+        </div>
+    </div>
+}
+
+@if (Model != null && Model.messages != null && Model.messages.Count > 0)
+{
+    foreach (Msg messsage in Model.messages)
+    {
+        <div class="container">
+            <div>
+                <strong>@messsage.sendID</strong>
+            </div>
+            <div>
+                <strong>@messsage.timeStamp</strong>
+            </div>
+            <div>
+                <p>
+                    @messsage.msg
+                </p>
+            </div>
+        </div>
+    }
+} else if (Model != null && Model.success == true)
+{
+    <h3 style="color:red">No unread messages</h3>
+}
+
+
+
+

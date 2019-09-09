@@ -1,0 +1,47 @@
+﻿@model Msg
+@{
+    ViewData["Title"] = "SendMsg";
+}
+
+@Html.Partial("Nav")
+
+
+@if (Model != null && Model.sent == true)
+{
+    <h2 style="color:green">Message Sent</h2>
+}
+
+<h2>SendMsg</h2>
+@using (Html.BeginForm("SendMsg", "Home", FormMethod.Post))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h4><strong>To Whom (ID):</strong></h4>
+            </div>
+            <div class="pad-10">
+                @Html.TextBoxFor(m => Model.sendID)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <h4><strong>From (your ID):</strong></h4>
+            </div>
+            <div class="pad-10">
+                @Html.TextBoxFor(m => Model.userID)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <h4><strong>Message:</strong></h4>
+            </div>
+            <div class="pad-10">
+                @Html.TextAreaFor(m => Model.msg, new { @class = "msgBox" })
+            </div>
+        </div>
+    </div>
+
+    <input type="submit" value="Send" />
+}
+
+

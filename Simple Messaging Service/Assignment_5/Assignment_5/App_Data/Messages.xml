@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--CSE446 Messaging System Example-->
+<Messages xmlns="http://example.com/Messages">
+  <Message>
+    <SenderID>Jon</SenderID>
+    <ReceiverID>Amy</ReceiverID>
+    <TS>3/16/2019 2:22:56 PM</TS>
+    <Read>true</Read>
+    <MessageContents>Harro</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>Jon</SenderID>
+    <ReceiverID>Amy</ReceiverID>
+    <TS>3/16/2019 2:23:38 PM</TS>
+    <Read>true</Read>
+    <MessageContents>Testing how are you?</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>Amy</SenderID>
+    <ReceiverID>Jon</ReceiverID>
+    <TS>3/16/2019 2:24:07 PM</TS>
+    <Read>false</Read>
+    <MessageContents>I'm fine thank you</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>Amy</SenderID>
+    <ReceiverID>Jon</ReceiverID>
+    <TS>3/16/2019 2:24:23 PM</TS>
+    <Read>false</Read>
+    <MessageContents>And you?</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>Ollie</SenderID>
+    <ReceiverID>Amy</ReceiverID>
+    <TS>3/16/2019 2:25:04 PM</TS>
+    <Read>true</Read>
+    <MessageContents>Who dat?</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>Local</SenderID>
+    <ReceiverID>Jon</ReceiverID>
+    <TS>3/16/2019 2:48:51 PM</TS>
+    <Read>false</Read>
+    <MessageContents>Restful service</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>LocalHost</SenderID>
+    <ReceiverID>Jon</ReceiverID>
+    <TS>3/16/2019 3:31:00 PM</TS>
+    <Read>false</Read>
+    <MessageContents>Testing restful delivery from app</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>Loca</SenderID>
+    <ReceiverID>Jon</ReceiverID>
+    <TS>3/16/2019 3:38:40 PM</TS>
+    <Read>false</Read>
+    <MessageContents>Testing success message</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>Ollie</SenderID>
+    <ReceiverID>Amy</ReceiverID>
+    <TS>3/16/2019 6:10:16 PM</TS>
+    <Read>true</Read>
+    <MessageContents>Cheese. Pease.</MessageContents>
+  </Message>
+</Messages>

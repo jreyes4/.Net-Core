@@ -1,0 +1,17 @@
+C:\Users\jonre\source\repos\RestService\RestService\bin\RestService.dll.config
+C:\Users\jonre\source\repos\RestService\RestService\bin\RestService.dll
+C:\Users\jonre\source\repos\RestService\RestService\bin\RestService.pdb
+C:\Users\jonre\source\repos\RestService\RestService\bin\Newtonsoft.Json.dll
+C:\Users\jonre\source\repos\RestService\RestService\bin\System.Net.Http.Formatting.dll
+C:\Users\jonre\source\repos\RestService\RestService\bin\System.Web.Cors.dll
+C:\Users\jonre\source\repos\RestService\RestService\bin\System.Web.Http.Cors.dll
+C:\Users\jonre\source\repos\RestService\RestService\bin\System.Web.Http.dll
+C:\Users\jonre\source\repos\RestService\RestService\bin\Newtonsoft.Json.xml
+C:\Users\jonre\source\repos\RestService\RestService\bin\System.Net.Http.Formatting.xml
+C:\Users\jonre\source\repos\RestService\RestService\bin\System.Web.Http.xml
+C:\Users\jonre\source\repos\RestService\RestService\bin\System.Web.Http.Cors.xml
+C:\Users\jonre\source\repos\RestService\RestService\obj\Debug\RestService.csprojAssemblyReference.cache
+C:\Users\jonre\source\repos\RestService\RestService\obj\Debug\RestService.csproj.CoreCompileInputs.cache
+C:\Users\jonre\source\repos\RestService\RestService\obj\Debug\RestService.csproj.CopyComplete
+C:\Users\jonre\source\repos\RestService\RestService\obj\Debug\RestService.dll
+C:\Users\jonre\source\repos\RestService\RestService\obj\Debug\RestService.pdb

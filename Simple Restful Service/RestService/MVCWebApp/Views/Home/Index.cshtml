@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="~/js/site.js"></script>
+</head>
+<body>
+    @* Hidden field to save secret Number *@
+    <input type="hidden" class="hidden"/>
+
+    <div class="text-center">
+        <h3>Welcome to the Number Guessing Game</h3>
+        @* Generate Secret Number *@
+        <div>
+            <h4>Generate a secret number by entering a lower limit and upper limit</h4>
+            <label id="errMsg" hidden="hidden" style="color:red">Invalid Input</label>
+            <br />
+            <label class="genLbl">Lower Limit:</label>
+            <input type="text" id="low" />
+            <label class="genLbl">Upper Limit:</label>
+            <input type="text" id="high" />
+            @* JS call *@
+            <button onclick="GenNumber()">Generate Number</button>
+        </div>
+        @* Guess secret number *@
+        <div class="GuessNumber">
+            <h4>Guess the secret number by entering a guess</h4>
+            <label id="errMsg2" hidden="hidden" style="color:red">Check Guess or Generate Secret Number</label>
+            <br />
+            <label id="guessLbl">Guess:</label>
+            <input type="text" id="guess" />
+            @* JS call *@
+            <button onclick="Guess()">Submit</button>
+            <br />
+            <label id="response"></label>
+            <br />
+            <label id="Attempts">Attempts: -</label>
+        </div>
+    </div>
+</body>
+</html>
